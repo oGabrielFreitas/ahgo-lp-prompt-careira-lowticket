@@ -13,7 +13,7 @@ export function Bonus() {
   const { openCTA } = useCTALink();
 
   return (
-    <section className="relative px-4 py-20 sm:py-28">
+    <section className="relative px-4 py-0 sm:py-0">
       <div className="pointer-events-none absolute inset-0 bg-glow-gold opacity-60" />
 
       <div className="relative mx-auto max-w-3xl">
@@ -58,7 +58,11 @@ export function Bonus() {
                   stroke="currentColor"
                   strokeWidth={3}
                 >
-                  <path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7" />
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    d="M5 13l4 4L19 7"
+                  />
                 </svg>
                 <span className="text-sm text-foreground/85">{topic}</span>
               </motion.div>
@@ -83,7 +87,11 @@ export function Bonus() {
                 stroke="currentColor"
                 strokeWidth={2}
               >
-                <path strokeLinecap="round" strokeLinejoin="round" d="M13 7l5 5m0 0l-5 5m5-5H6" />
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  d="M13 7l5 5m0 0l-5 5m5-5H6"
+                />
               </svg>
             </button>
           </div>

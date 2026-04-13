@@ -9,7 +9,7 @@ const FEATURES = [
 
 export function Mechanism() {
   return (
-    <section className="relative px-4 py-20 sm:py-20">
+    <section className="relative px-4 py-20 sm:py-25">
       <div className="pointer-events-none absolute inset-0 bg-glow-green opacity-50" />
       <div className="relative mx-auto max-w-3xl">
         <motion.div

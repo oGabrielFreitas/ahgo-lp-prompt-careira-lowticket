@@ -18,7 +18,7 @@ export function Hero() {
           transition={{ duration: 0.6 }}
         >
           <span className="mb-6 inline-block rounded-full border border-primary/30 bg-primary/10 px-4 py-1.5 font-body text-sm font-medium text-primary">
-            Prompt de Carteira
+            Prompt + Aulas de Investimento
           </span>
         </motion.div>
 
@@ -33,7 +33,7 @@ export function Hero() {
         </motion.h1>
 
         <motion.p
-          className="mx-auto mt-6 max-w-xl text-lg leading-relaxed text-muted-foreground sm:text-xl"
+          className="mx-auto mt-6 max-w-2xl text-lg leading-relaxed text-muted-foreground sm:text-xl"
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.7, delay: 0.2 }}

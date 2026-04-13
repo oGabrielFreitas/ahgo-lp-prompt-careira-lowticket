@@ -3,13 +3,16 @@ import { motion } from "framer-motion";
 const LESSONS = [
   { number: "01", title: "Visão Geral do Sistema" },
   { number: "02", title: "Como o Prompt Gera a Carteira" },
-  { number: "03", title: "Customizando a Carteira para Seu Perfil de Investidor" },
+  {
+    number: "03",
+    title: "Customizando a Carteira para Seu Perfil de Investidor",
+  },
   { number: "04", title: "Como Interpretar e Validar a Carteira Gerada" },
 ];
 
 export function Modules() {
   return (
-    <section className="px-4 py-20 sm:py-28">
+    <section className="px-4 py-10 sm:py-10">
       <div className="mx-auto max-w-3xl">
         <motion.div
           className="text-center"
@@ -47,7 +50,7 @@ export function Modules() {
             </div>
           </div>
 
-          <div className="mt-6 space-y-3">
+          <div className="mt-6 space-y-0">
             {LESSONS.map((lesson, i) => (
               <motion.div
                 key={i}
@@ -57,10 +60,12 @@ export function Modules() {
                 viewport={{ once: true }}
                 transition={{ delay: 0.15 + i * 0.08 }}
               >
-                <span className="font-heading text-sm font-bold text-primary/60">
+                <span className="font-heading text-xl mt-0.5 font-bold text-primary/60 self-baseline">
                   {lesson.number}
                 </span>
-                <span className="text-sm text-foreground/90">{lesson.title}</span>
+                <span className="text-base text-foreground/90">
+                  {lesson.title}
+                </span>
               </motion.div>
             ))}
           </div>

@@ -17,7 +17,7 @@ const PROBLEMS = [
 
 export function Problem() {
   return (
-    <section className="relative px-4 py-0 sm:py-0">
+    <section className="relative px-4 py-0 sm:py-10">
       <div className="mx-auto max-w-3xl text-center">
         <motion.h2
           className="font-heading text-3xl font-bold sm:text-4xl"
