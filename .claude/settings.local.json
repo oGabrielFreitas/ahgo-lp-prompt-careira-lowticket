@@ -1,0 +1,18 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm install:*)",
+      "Bash(mkdir:*)",
+      "Bash(npx tsc:*)",
+      "Bash(npm run:*)",
+      "Bash(curl -s http://localhost:5173)",
+      "Bash(curl:*)",
+      "Bash(npx vite:*)",
+      "Bash(wc -l \"/mnt/d/Gabriel/ACER_HDD/GabrielFreitasDev/Cursos/AHGO Prompts Low Ticket/Landingapge/ahgo-lp-prompt-careira-lowticket/src-2/components/ui\"/*.tsx)"
+    ]
+  },
+  "enabledPlugins": {
+    "frontend-design@claude-plugins-official": true,
+    "superpowers@claude-plugins-official": true
+  }
+}
