@@ -50,7 +50,7 @@ export function Hero() {
         >
           <button
             onClick={openCTA}
-            className="group relative inline-flex items-center gap-2 rounded-xl bg-primary px-8 py-4 font-heading text-lg font-semibold text-primary-foreground shadow-lg shadow-primary/25 transition-all hover:shadow-xl hover:shadow-primary/30 hover:-translate-y-0.5 active:translate-y-0"
+            className="group cursor-pointer relative inline-flex items-center gap-2 rounded-xl bg-primary px-8 py-4 font-heading text-lg font-semibold text-primary-foreground shadow-lg shadow-primary/25 transition-all hover:shadow-xl hover:shadow-primary/30 hover:-translate-y-0.5 active:translate-y-0"
           >
             {CTA_TEXT}
             <svg

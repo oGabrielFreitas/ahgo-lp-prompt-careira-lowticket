@@ -26,9 +26,9 @@ export function Mechanism() {
             Existe um jeito diferente.
           </h2>
           <p className="mx-auto mt-6 max-w-xl text-lg leading-relaxed text-muted-foreground">
-            Um prompt estruturado que, ao ser aplicado no ChatGPT ou Claude,
-            organiza o raciocínio de um analista fundamentalista e gera uma
-            carteira com critérios reais.
+            Um prompt estruturado que, ao ser aplicado no ChatGPT, organiza o{" "}
+            <b>raciocínio de um analista fundamentalista</b> e gera uma carteira
+            personalizada com critérios reais.
           </p>
         </motion.div>
 
